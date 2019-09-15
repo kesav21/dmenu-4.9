@@ -16,7 +16,7 @@ static const char *colors[SchemeLast][2] = {
 	/*					fg			bg			*/
 	// gruvbox colors
 	[SchemeNorm] =	{	"#928374",	"#282828" },
-	[SchemeSel] =	{	"#ebdbb2",	"#928374" },
+	[SchemeSel] =	{	"#282828",	"#928374" },
 	// no idea what this does
 	[SchemeOut] =	{	"#000000",	"#00ffff" },
 };

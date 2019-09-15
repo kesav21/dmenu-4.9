@@ -16,7 +16,8 @@ static const char *colors[SchemeLast][2] = {
 	/*					fg			bg			*/
 	// gruvbox colors
 	[SchemeNorm] =	{	"#928374",	"#282828" },
-	[SchemeSel] =	{	"#ebdbb2",	"#282828" },
+	// [SchemeSel] =	{	"#ebdbb2",	"#282828" },
+	[SchemeSel] =	{	"#ebdbb2",	"#928374" },
 	// no idea what this does
 	[SchemeOut] =	{	"#000000",	"#00ffff" },
 };
@@ -31,4 +32,5 @@ static unsigned int lines = 0;
 static const char worddelimiters[] = " ";
 
 static int fuzzy = 1;
+static const unsigned int border_width = 5;
 

@@ -30,3 +30,5 @@ static unsigned int lines = 0;
  */
 static const char worddelimiters[] = " ";
 
+static int fuzzy = 1;
+

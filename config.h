@@ -6,7 +6,7 @@ static int topbar = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Fira Mono:style=Regular:size=12"
+	"FiraMono Nerd Font:style=Regular:size=12"
 };
 
 /* -p  option; prompt to the left of input field */
@@ -17,8 +17,9 @@ static const char *colors[SchemeLast][2] = {
 	// gruvbox colors
 	[SchemeNorm] =	{	"#a89984",	"#282828" },
 	[SchemeSel] =	{	"#282828",	"#a89984" },
-	// no idea what this does
-	[SchemeOut] =	{	"#000000",	"#00ffff" },
+	// this is a multiple selection thing
+	// it's the color of already selected items
+	[SchemeOut] =	{	"#282828",	"#928374" },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */

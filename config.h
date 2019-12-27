@@ -15,8 +15,8 @@ static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*					fg			bg			*/
 	// gruvbox colors
-	[SchemeNorm] =	{	"#928374",	"#282828" },
-	[SchemeSel] =	{	"#282828",	"#928374" },
+	[SchemeNorm] =	{	"#a89984",	"#282828" },
+	[SchemeSel] =	{	"#282828",	"#a89984" },
 	// no idea what this does
 	[SchemeOut] =	{	"#000000",	"#00ffff" },
 };

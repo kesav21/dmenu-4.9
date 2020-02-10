@@ -8,7 +8,7 @@ static int topbar = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"FiraMono Nerd Font:style=Regular:size=12"
+	"FiraMono Nerd Font:style=Regular:size=10"
 };
 
 /* -p  option; prompt to the left of input field */
@@ -18,16 +18,15 @@ static const char *prompt = NULL;
 
 static const char col_foreground[] = "#ebdbb2";
 static const char col_background[] = "#282828";
-static const char col_cursorColor[] = "#ebdbb2";
 
-static const char col_color6[] = "#689d6a";
-static const char col_color14[] = "#8ec07c";
+static const char col_color7[] = "#a89984";
+static const char col_color8[] = "#928374";
 
 static const char *colors[SchemeLast][2] = {
-	/* [name]    = { fg       , bg        } */
+	/* [name]    = { fg            , bg              } */
 	[SchemeNorm] = { col_foreground,  col_background },
-	[SchemeSel]  = { col_background, col_color14 },
-	[SchemeOut]  = { col_background, col_color6 },
+	[SchemeSel]  = { col_background, col_color7     },
+	[SchemeOut]  = { col_background, col_color8      },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
@@ -40,5 +39,4 @@ static unsigned int lines = 20;
 static const char worddelimiters[] = " ";
 
 static int fuzzy = 1;
-static const unsigned int border_width = 5;
-
+static const unsigned int border_width = 2;

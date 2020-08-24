@@ -17,7 +17,7 @@ static const char *prompt = NULL;
 // gruvbox colors
 
 static const char col_foreground[] = "#ebdbb2";
-static const char col_background[] = "#282828";
+static const char col_background[] = "#1d2021";
 
 static const char col_color7[] = "#a89984";
 static const char col_color8[] = "#928374";

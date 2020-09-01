@@ -8,7 +8,7 @@ static int topbar = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"FiraMono Nerd Font:style=Regular:size=10"
+	"FiraCode Nerd Font:style=Regular:size=10"
 };
 
 /* -p  option; prompt to the left of input field */
